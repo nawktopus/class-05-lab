@@ -57,7 +57,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     let result1 = multiply(a,b)[0];
     result1 = multiply(result1,c)[0];
 
-    return [result,result1,"4 and 7 and 5 sum to 16.","The product of 4 and 7 and 5 is 140."];
+    return [result,result1, a + ' and ' + b + ' and ' + c + ' sum to ' + result + '.' , 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + result1 + '.'];
 
 }
 
