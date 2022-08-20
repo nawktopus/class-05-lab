@@ -57,7 +57,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     let result1 = multiply(a,b)[0];
     result1 = multiply(result1,c)[0];
 
-    return [result,result1,"4 and 7 and 5 sum to 16.","The product of 4 and 7 and 5 is 140."];
+    return [result,result1, a + ' and ' + b + ' and ' + c + ' sum to ' + result + '.' , 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + result1 + '.'];
 
 }
 
@@ -84,7 +84,7 @@ function sumArray(sumArr) { //eslint-disable-line
     let result = 0; 
     result = sum(testArray[0], testArray[1])[0];
     result = sum(result,testArray[2])[0];
-    console.log(result);
+    //console.log(result);
 
     return [result, testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + result + ' is their sum.'];
 }
