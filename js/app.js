@@ -84,7 +84,7 @@ function sumArray(sumArr) { //eslint-disable-line
     let result = 0; 
     result = sum(testArray[0], testArray[1])[0];
     result = sum(result,testArray[2])[0];
-    console.log(result);
+    //console.log(result);
 
     return [result, testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + result + ' is their sum.'];
 }
